@@ -1,0 +1,52 @@
+{
+  "telegramBot": {
+    "token": "YOUR_TELEGRAM_BOT_TOKEN",
+    "gameName": "CrapsGame",
+    "gameDescription": "A craps game with betting against the House. Collect points and convert them into $CRAP tokens."
+  },
+  "blockchainService": {
+    "chainUrl": "YOUR_BLOCKCHAIN_URL",
+    "contractAddress": "YOUR_CONTRACT_ADDRESS",
+    "privateKey": "YOUR_PRIVATE_KEY",
+    "gasPrice": "YOUR_GAS_PRICE",
+    "gasLimit": "YOUR_GAS_LIMIT"
+  },
+  "walletService": {
+    "privyUrl": "YOUR_PRIVY_URL",
+    "privyApiKey": "YOUR_PRIVY_API_KEY"
+  },
+  "crapsGameLogic": {
+    "initialPoints": 100,
+    "bettingOptions": [
+      "Pass",
+      "DontPass",
+      "Come",
+      "DontCome",
+      "Field",
+      "PassComeOdds",
+      "DontPassDontComeOdds",
+      "Buy",
+      "Lay",
+      "Hardway"
+    ],
+    "rollInterval": 60,
+    "betaPeriod": true
+  },
+  "tokenDistribution": {
+    "userShare": 0.3,
+    "houseShare": 0.5,
+    "liquidityPoolShare": 0.2,
+    "totalSupply": 1000000,
+    "conversionRate": "TO_BE_DEFINED_AFTER_BETA"
+  },
+  "liquidityPool": {
+    "initialEth": 1,
+    "uniswapV2Url": "YOUR_UNISWAP_V2_URL"
+  },
+  "database": {
+    "host": "YOUR_DATABASE_HOST",
+    "user": "YOUR_DATABASE_USER",
+    "password": "YOUR_DATABASE_PASSWORD",
+    "database": "YOUR_DATABASE_NAME"
+  }
+}
